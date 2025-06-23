@@ -23,4 +23,4 @@ Dirancang untuk komunitas Discord yang sering mengadakan acara, seperti webinar,
 | /stats | Statistik bot.|
 
 
-
+Bot sudah di tes di server : https://discord.gg/KzVBHKf9ck
