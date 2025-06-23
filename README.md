@@ -12,13 +12,6 @@ Dirancang untuk komunitas Discord yang sering mengadakan acara, seperti webinar,
 
 ---
 
-📖 Daftar Perintah:
-🕒 /convert – Konversi zona waktu.
-🔢 /hitung – Hitung ekspresi matematika.
-📅 /input, /event, /eventedit, /eventdelete – Manajemen event.
-📋 /listgarapan, /inputgarapan, /editgarapan, /hapusgarapan – Manajemen garapan.
-ℹ️ /about – Info tentang bot.
-📊 /stats – Statistik bot.
 
 | Fitur | Deskripsi |
 |-------|-----------|
