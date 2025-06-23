@@ -20,5 +20,14 @@ Dirancang untuk komunitas Discord yang sering mengadakan acara, seperti webinar,
 ℹ️ /about – Info tentang bot.
 📊 /stats – Statistik bot.
 
+| Fitur | Deskripsi |
+|-------|-----------|
+| /convert| Konversi zona waktu. |
+| /hitung | Hitung ekspresi matematika. |
+| /input, /event, /eventedit, /eventdelete | Edit data event melalui dropdown & modal UI |
+| /listgarapan, /inputgarapan, /editgarapan, /hapusgarapan | Manajemen garapan.|
+| /about | Info tentang bot.|
+| /stats | Statistik bot.|
+
 
 
