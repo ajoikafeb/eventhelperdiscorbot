@@ -93,8 +93,6 @@ class EditFieldModal(Modal):
         save_garapan(data)
         await interaction.response.send_message(f"✅ `{self.field}` garapan **{self.garapan['judul']}** diperbarui.", ephemeral=True)
 
-# ────────── Pagination + Filter ──────────
-
 class FilterKategoriSelect(Select):
     def __init__(self, original_data, update_callback):
         self.original_data = original_data
@@ -165,7 +163,6 @@ class GarapanPaginator(View):
         self.add_item(FilterKategoriSelect(self.original_data, self.apply_filter))
         await interaction.response.edit_message(embed=self.get_embed(), view=self)
 
-# ────────── Cog Class ──────────
 
 class GarapanCog(commands.Cog):
     def __init__(self, bot):
