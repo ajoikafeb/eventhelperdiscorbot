@@ -41,7 +41,6 @@ def is_expired(tanggal, jam):
     except:
         return False
 
-# ─── UI COMPONENTS ───
 class DeleteSelect(Select):
     def __init__(self, events):
         super().__init__(placeholder="Pilih event untuk dihapus",
@@ -130,7 +129,6 @@ class EditOneFieldModal(Modal):
         save_events(data)
         await inter.response.send_message(f"✅ `{f}` event **{self.ev['nama']}** diperbarui.", ephemeral=True)
 
-# ─── MAIN COG ───
 class EventCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
@@ -247,6 +245,5 @@ class EventCog(commands.Cog):
             return await inter.response.send_message("📭 Tidak ada event.", ephemeral=True)
         await inter.response.send_message("Pilih event untuk diedit:", view=SelectEditView(events), ephemeral=True)
 
-# ─── SETUP FUNCTION ───
 async def setup(bot: commands.Bot):
     await bot.add_cog(EventCog(bot))
